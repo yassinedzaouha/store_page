@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const imagesArray = [
-    '/assets/img/img_camera.jpg', '/assets/img/img_headphones2.jpg', '/assets/img/img_pc.jpg',
-    '/assets/img/img_keyboard.jpg', '/assets/img/img_headphones.jpg', '/assets/img/img_watch.jpg',
-    '/assets/img/img_glasses.jpg', '/assets/img/img_bioglow.jpg', '/assets/img/img_watch2.jpg',
+    './assets/img/img_camera.jpg', './assets/img/img_headphones2.jpg', './assets/img/img_pc.jpg',
+    './assets/img/img_keyboard.jpg', './assets/img/img_headphones.jpg', './assets/img/img_watch.jpg',
+    './assets/img/img_glasses.jpg', './assets/img/img_bioglow.jpg', './assets/img/img_watch2.jpg',
 ];
 
 const titles = [
@@ -63,20 +63,20 @@ function changeCards(count) {
                                     <h1 class="card-title">Chair</h1>
                                     <p class="card-price">£250</p>
                                 </div>
-                                <div class="buy"><img class="buy_img" src="/assets/icons/shopping_cart.svg" alt=""></div>
+                                <div class="buy"><img class="buy_img" src="./assets/icons/shopping_cart.svg" alt=""></div>
                             </div>
                             <div class="right">
-                                <div class="done"><img src="/assets/icons/done.svg" alt=""></div>
+                                <div class="done"><img src="./assets/icons/done.svg" alt=""></div>
                                 <div class="details">
                                     <h1 class="titele_inside">Chair</h1>
                                     <p>Added to your cart</p>
                                 </div>
-                                <div class="remove"><img src="/assets/icons/close.svg" alt=""></div>
+                                <div class="remove"><img src="./assets/icons/close.svg" alt=""></div>
                             </div>
                         </div>
                     </div>
                     <div class="inside">
-                        <div class="icon"><img src="/assets/icons/info_icon.svg" alt=""></div>
+                        <div class="icon"><img src="./assets/icons/info_icon.svg" alt=""></div>
                         <div class="contents">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
                         </div>
